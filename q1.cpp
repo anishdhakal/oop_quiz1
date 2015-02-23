@@ -1,7 +1,7 @@
 /*
  Program: Question 1 from quiz 1.
- Name   : Milan Lamichhane
- Roll   :
+ Name   : Anish Dhakal
+ Roll   : 0310
  Output : 8
 */
 
@@ -15,11 +15,11 @@ int main()
 	int b;
 	int* p;
 	int* q;
-	
+
 	a = 3;
 	p = &a;
 	q = p;
 	*q = *q + 5;
-	
+
 	cout << *p;
 }
